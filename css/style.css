@@ -1,0 +1,16 @@
+p {
+  line-height: 1.5;
+  font-size: 18px;
+  text-indent: 1.5em;
+}
+h1 {
+  font-style: italic;
+  color: red;
+  font-size: 38px;
+}
+p:last-of-type {
+  color: blue;
+}
+p::first-letter {
+  font-weight: bold;
+}
